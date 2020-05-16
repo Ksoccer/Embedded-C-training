@@ -10,5 +10,5 @@ install:
 
 script:
   - echo "Reached Script Section"
-  - gcc   	Hello World.c -o output
+  - gcc   	HelloWorld.c -o output
   - ./output
