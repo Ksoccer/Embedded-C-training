@@ -7,9 +7,14 @@ Please put a space between each numerical value. Current version only for 4 lett
 
 int main() {
   
-  char array[26] = {A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z};
+  char array[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
   
-  printf("Enter Name in numerics")
+  printf("Enter Name in numerics");
+  int fl;
+  int sl;
+  int tl;
+  int fol;
+  
   scanf("%d %d %d %d", &fl, &sl, &tl, &fol);
   
   char fl1 = array[fl];
