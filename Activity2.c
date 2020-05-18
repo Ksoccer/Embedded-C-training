@@ -20,7 +20,7 @@ int main() {
   char fl1 = array[fl];
   char sl1 = array[sl];
   char tl1 = array[tl];
-  char fol1 = array[fol]'
+  char fol1 = array[fol];
   
   printf("%c%c%c%c", fl1, sl1, tl1, fol1);
   
