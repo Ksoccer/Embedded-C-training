@@ -6,27 +6,23 @@ Please put a space between each numerical value. Current version only for 4 lett
 
 
 int main() {
-  
+  /* Creates alphabet char array*/
   char array[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
   
-  printf("Enter Name in numerics");
-  int fl;
+  printf("Enter Name in numerics"); /* Prints to ask for user input*/
+  int fl; 
   int sl;
   int tl;
   int fol;
   
-  scanf("%d %d %d %d", &fl, &sl, &tl, &fol);
+  scanf("%d %d %d %d", &fl, &sl, &tl, &fol); /* scans in user input, stores the ints which then are used for array indexes*/
   
   char fl1 = array[fl];
   char sl1 = array[sl];
   char tl1 = array[tl];
   char fol1 = array[fol];
   
-  printf("%c%c%c%c", fl1, sl1, tl1, fol1);
-  
-  
-  
-  
+  printf("%c%c%c%c", fl1, sl1, tl1, fol1); /* Prints out combined chars from array to spell out the name. */
   
   return 0;
 }
